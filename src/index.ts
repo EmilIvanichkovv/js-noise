@@ -29,6 +29,8 @@ import {
 import { PayloadV2 } from "./payload.js";
 import { NoisePublicKey } from "./publickey.js";
 import { QR } from "./qr.js";
+import { Cipher } from "./crypto.js";
+import { ChaChaPoly } from "./chachapoly.js";
 
 export {
   Handshake,
@@ -56,3 +58,5 @@ export { InitiatorParameters, ResponderParameters, WakuPairing };
 export { PayloadV2 };
 export { CipherState };
 export { Nonce };
+export { Cipher };
+export { ChaChaPoly };
